@@ -1,0 +1,111 @@
+/* Секция Hero  */
+.title {
+  color: var(--white-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.title-button {
+  color: var(--white-text);
+  font-weight: 700;
+  background-color: var(--blue);
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin: 0 auto;
+  min-width: 200px;
+  border: 1px solid transparent;
+}
+
+.hero {
+  background-color: var(--black-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.section-main,
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-main .fora + .fora {
+  margin-left: 30px;
+}
+
+.center {
+  padding-bottom: 94px;
+}
+
+.studio {
+  display: flex;
+}
+
+.studio .picture + .picture {
+  margin-left: 30px;
+}
+
+.small-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.best {
+  color: var(--grey-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mide-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.vizitka {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.our-team .spets + .spets {
+  margin-left: 30px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.profil {
+  color: var(--grey-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
